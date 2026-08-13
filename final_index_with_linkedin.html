@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patricia Ann Bandibas — Customer Experience, Customer Support, E-commerce, and AI-Assisted Work Professional">
+    <meta name="author" content="Patricia Ann Bandibas">
+    <title>Patricia Ann Bandibas — Customer Experience & Support Professional</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            DEFAULT: '#0F172A',
+                            dark: '#0B0F19',
+                            light: '#1E293B',
+                            accent: '#1D4ED8'
+                        },
+                        slate: {
+                            50: '#F8FAFC',
+                            100: '#F1F5F9',
+                            200: '#E2E8F0',
+                            600: '#475569',
+                            700: '#334155',
+                            800: '#1E293B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Manrope', 'system-ui', '-apple-system', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #334155;
+            background: #FFFFFF;
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .portfolio-video {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            background: #E2E8F0;
+        }
+
+        .hero-photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 640px) {
+            .portfolio-image,
+            .portfolio-video {
+                height: 340px;
+            }
+        }
+    </style>
+</head>
+
+<body class="antialiased selection:bg-blue-100 selection:text-blue-900">
+
+    <!-- NAVIGATION -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-semibold text-navy text-base tracking-tight hover:text-blue-700 transition-colors">
+                Patricia Ann Bandibas
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-navy transition-colors">About</a>
+                <a href="#services" class="hover:text-navy transition-colors">Services</a>
+                <a href="#experience" class="hover:text-navy transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-navy transition-colors">Tools & Skills</a>
+                <a href="#work" class="hover:text-navy transition-colors">Selected Work</a>
+                <a href="#contact" class="hover:text-navy transition-colors">Contact</a>
+            </nav>
+
+            <a href="#contact"
+               class="hidden sm:inline-flex items-center justify-center px-4 py-2 text-xs font-medium text-white bg-navy hover:bg-navy-light rounded-md transition-colors shadow-sm">
+                Let's Connect
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="relative pt-16 pb-20 md:pt-24 md:pb-28 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-10 md:gap-16">
+
+                <div class="w-36 h-36 md:w-44 md:h-44 rounded-full bg-slate-200 border-2 border-slate-300 flex-shrink-0 overflow-hidden shadow-sm">
+                    <img
+                        src="./profile.png"
+                        alt="Professional portrait of Patricia Ann Bandibas"
+                        class="hero-photo"
+                        loading="eager"
+                    >
+                </div>
+
+                <div class="text-center md:text-left flex-1">
+                    <span class="inline-block text-xs font-semibold uppercase tracking-widest text-blue-700 bg-blue-50 px-3 py-1 rounded-full mb-4 border border-blue-100">
+                        Remote Professional
+                    </span>
+
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-navy tracking-tight mb-3">
+                        Patricia Ann Bandibas
+                    </h1>
+
+                    <p class="text-base md:text-lg font-medium text-slate-700 mb-2">
+                        Customer Experience | Customer Support | E-commerce | AI-Assisted Work
+                    </p>
+
+                    <p class="text-sm md:text-base text-slate-600 mb-8 max-w-2xl">
+                        Remote Customer Support & Digital Operations Professional
+                    </p>
+
+                    <div class="flex flex-wrap items-center justify-center md:justify-start gap-4">
+                        <a href="#experience"
+                           class="px-5 py-2.5 text-xs font-medium text-white bg-navy hover:bg-navy-light rounded-md transition-colors shadow-sm">
+                            View Experience
+                        </a>
+                        <a href="#contact"
+                           class="px-5 py-2.5 text-xs font-medium text-navy bg-white hover:bg-slate-100 border border-slate-300 rounded-md transition-colors">
+                            Let's Connect
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-20 md:py-28 bg-white">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-3">About Me</h2>
+
+            <div class="space-y-6 text-base md:text-lg text-slate-700 leading-relaxed">
+                <p>
+                    I’m a Customer Experience and Customer Support professional with experience handling customer questions, orders, subscriptions, billing, refunds, shipping, and product-related concerns.
+                </p>
+
+                <p>
+                    I’m comfortable working with different systems, solving problems, communicating clearly, and working independently in a remote environment. I also have a background in administrative and operations work, where accuracy and attention to detail are important.
+                </p>
+
+                <p class="text-slate-600 text-sm md:text-base pt-2">
+                    Alongside my customer support experience, I use AI tools for content creation, research, and digital work. I create fashion and product-focused content for social media and use AI as part of my creative and research workflow.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-20 md:py-28 bg-slate-50 border-t border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="mb-14">
+                <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2">What I Can Help With</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-navy">Practical Support Across Customer Experience & Digital Work</h3>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+                    <h4 class="text-base font-semibold text-navy mb-2">Customer Support</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Handling customer questions, concerns, follow-ups, and support requests with clear and helpful communication.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+                    <h4 class="text-base font-semibold text-navy mb-2">Email Support</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Managing customer communication and providing personalized responses based on the situation.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+                    <h4 class="text-base font-semibold text-navy mb-2">E-commerce Support</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Assisting with orders, subscriptions, billing, refunds, shipping, returns, and product-related concerns.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+                    <h4 class="text-base font-semibold text-navy mb-2">Customer Retention</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Understanding customer concerns and finding practical solutions that support both the customer and the business.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+                    <h4 class="text-base font-semibold text-navy mb-2">Administrative Support</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Handling data, documentation, organization, and day-to-day operational tasks accurately.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+                    <h4 class="text-base font-semibold text-navy mb-2">AI-Assisted Work</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Using AI tools for research, content creation, drafting, ideation, and digital workflows.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="py-20 md:py-28 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+
+            <div class="mb-14">
+                <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2">Career History</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-navy">Professional Experience</h3>
+            </div>
+
+            <div class="space-y-12">
+
+                <!-- WNW GROUP -->
+                <div class="relative pl-6 md:pl-8 border-l-2 border-navy">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-navy border-2 border-white"></div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                        <h4 class="text-lg font-bold text-navy">Customer Experience Advisor</h4>
+                        <span class="text-xs font-semibold text-blue-700 bg-blue-50 px-2.5 py-1 rounded border border-blue-100 w-fit mt-1 sm:mt-0">
+                            June 2024 – Present • Remote
+                        </span>
+                    </div>
+
+                    <p class="text-sm font-semibold text-slate-700 mb-3">WNW Group</p>
+
+                    <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                        Provide customer support through email, handling questions and concerns related to orders, subscriptions, billing, refunds, shipping, and products. Work with customer support and e-commerce systems while focusing on clear communication, practical resolutions, customer retention, and a smooth customer experience.
+                    </p>
+
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Customer Support</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Email Support</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">E-commerce Support</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Customer Retention</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Order Support</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Billing & Refund Support</span>
+                    </div>
+                </div>
+
+                <!-- ACCENTURE -->
+                <div class="relative pl-6 md:pl-8 border-l-2 border-slate-300">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-400 border-2 border-white"></div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                        <h4 class="text-lg font-bold text-navy">Health Operations Associate</h4>
+                        <span class="text-xs font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded w-fit mt-1 sm:mt-0">
+                            April 2022 – June 2024
+                        </span>
+                    </div>
+
+                    <p class="text-sm font-semibold text-slate-700 mb-3">Accenture</p>
+
+                    <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                        Handled insurance-related administrative and verification tasks, reviewed information for accuracy, and worked with process-driven systems and documentation.
+                    </p>
+
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Data Verification</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Administrative Support</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Data Entry</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Research</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Process Handling</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Accuracy</span>
+                    </div>
+                </div>
+
+                <!-- PHILIPPINE STATISTICS AUTHORITY -->
+                <div class="relative pl-6 md:pl-8 border-l-2 border-slate-300">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-400 border-2 border-white"></div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                        <h4 class="text-lg font-bold text-navy">Administrative Assistant</h4>
+                        <span class="text-xs font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded w-fit mt-1 sm:mt-0">
+                            January 2021 – December 2021
+                        </span>
+                    </div>
+
+                    <p class="text-sm font-semibold text-slate-700 mb-3">Philippine Statistics Authority</p>
+
+                    <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                        Supported administrative tasks, data handling, documentation, and day-to-day office operations.
+                    </p>
+
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Administrative Support</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Data Entry</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Documentation</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Data Handling</span>
+                    </div>
+                </div>
+
+                <!-- OUTCLEAN -->
+                <div class="relative pl-6 md:pl-8 border-l-2 border-slate-300">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-400 border-2 border-white"></div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                        <h4 class="text-lg font-bold text-navy">Administrative Assistant</h4>
+                        <span class="text-xs font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded w-fit mt-1 sm:mt-0">
+                            December 2019 – November 2020
+                        </span>
+                    </div>
+
+                    <p class="text-sm font-semibold text-slate-700 mb-3">Outclean, Inc.</p>
+
+                    <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                        Handled administrative tasks, document management, report preparation, and day-to-day support for HR and Finance teams.
+                    </p>
+
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Administrative Support</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Documentation</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Report Preparation</span>
+                        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded">HR & Finance Support</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 p-6 bg-slate-50 rounded-lg border border-slate-200">
+                <h4 class="text-sm font-semibold text-navy mb-2">Additional Administrative / Operations Experience</h4>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    Additional experience in administrative and operations-related roles, including data handling, documentation, coordination, and process-based work.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOOLS & PLATFORMS -->
+    <section id="skills" class="py-20 md:py-28 bg-slate-50 border-t border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6">
+
+            <div class="mb-14">
+                <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2">Tools & Skills</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-navy">Practical tools for support, operations, and digital work.</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- CUSTOMER & E-COMMERCE -->
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                    <h4 class="text-xs font-semibold uppercase tracking-wider text-blue-700 mb-4">
+                        Customer Support & E-commerce
+                    </h4>
+
+                    <ul class="space-y-2.5 text-sm text-slate-700">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Reamaze</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Commslayer</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Checkout Champ</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Shopify</li>
+                    </ul>
+                </div>
+
+                <!-- PRODUCTIVITY & OPERATIONS -->
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                    <h4 class="text-xs font-semibold uppercase tracking-wider text-blue-700 mb-4">
+                        Productivity & Operations
+                    </h4>
+
+                    <ul class="space-y-2.5 text-sm text-slate-700">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Google Workspace</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Google Docs</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Google Sheets</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Slack</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Microsoft Office</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Documentation</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Data Entry</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Verification</li>
+                    </ul>
+                </div>
+
+                <!-- AI & DIGITAL CONTENT -->
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                    <h4 class="text-xs font-semibold uppercase tracking-wider text-blue-700 mb-4">
+                        AI & Digital Content
+                    </h4>
+
+                    <ul class="space-y-2.5 text-sm text-slate-700">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>ChatGPT</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>AI-assisted research</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Visual ideation</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Fashion content</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Product content</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Short-form video concepts</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Social media content</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Omni</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Gemini</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-slate-400 rounded-full mr-2.5"></span>Veo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI & CONTENT CREATION -->
+    <section class="py-20 md:py-28 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+
+            <div class="mb-10">
+                <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2">Additional Skills</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-navy">AI & Content Creation</h3>
+            </div>
+
+            <div class="space-y-4 text-base text-slate-700 leading-relaxed">
+                <p>
+                    Outside of customer support, I create AI-assisted fashion and product content for social media.
+                </p>
+
+                <p>
+                    My work includes product research, content ideas, visual concepts, image generation, short-form video concepts, and social media content.
+                </p>
+
+                <p class="text-slate-600 text-sm">
+                    I use AI as a practical tool to support research and content production while focusing on the quality and usefulness of the final result.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section id="work" class="py-20 md:py-28 bg-slate-50 border-t border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6">
+
+            <div class="mb-14">
+                <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2">Portfolio Showcase</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-navy">Selected Work</h3>
+            </div>
+
+            <div class="space-y-16">
+
+                <!-- FASHION CONTENT -->
+                <div>
+                    <div class="mb-6">
+                        <h4 class="text-lg font-bold text-navy mb-1">AI-Assisted Fashion Content</h4>
+                        <p class="text-sm text-slate-600">
+                            Visual content created for fashion and product-focused social media.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./fashion-cardigan.jpg"
+                                 alt="Brown cardigan outfit styling"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Brown cardigan outfit styling</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./fashion-effortless-polish.jpg"
+                                 alt="Effortless Polish fashion lookbook"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Effortless Polish lookbook</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./fashion-same-jeans.jpg"
+                                 alt="Same jeans three different vibes"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Same jeans, three different vibes</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./fashion-timeless-neutral.jpg"
+                                 alt="Timeless Neutral fashion lookbook"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Timeless Neutral lookbook</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PRODUCT CONTENT -->
+                <div>
+                    <div class="mb-6">
+                        <h4 class="text-lg font-bold text-navy mb-1">AI-Assisted Product Content</h4>
+                        <p class="text-sm text-slate-600">
+                            Product-focused visual content developed for social media and e-commerce applications.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./product-bostanten-brown-bag.jpg"
+                                 alt="Bostanten brown bag product visual"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Product styling showcase</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./product-bostanten-tote.jpg"
+                                 alt="Bostanten tote bag product visual"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Lifestyle product visual</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./product-leather-loafers.jpg"
+                                 alt="Leather loafers product visual"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Product promotional content</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <img src="./product-pink-backpack.jpg"
+                                 alt="Pink multi-compartment backpack product visual"
+                                 class="portfolio-image rounded mb-3"
+                                 loading="lazy">
+                            <p class="text-xs text-slate-600 font-medium">Product image showcase</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- VIDEO CONTENT -->
+                <div>
+                    <div class="mb-6">
+                        <h4 class="text-lg font-bold text-navy mb-1">Short-Form Video Concepts</h4>
+                        <p class="text-sm text-slate-600">
+                            AI-assisted video concepts developed through scene planning, visual direction, movement, and product/fashion presentation.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <video class="portfolio-video rounded mb-3"
+                                   controls
+                                   playsinline
+                                   preload="metadata"
+                                   poster="./video-fashion-blue-top-poster.jpg">
+                                <source src="./video-fashion-blue-top.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                            <p class="text-xs text-slate-600 font-medium">Fashion video concept — blue top</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <video class="portfolio-video rounded mb-3"
+                                   controls
+                                   playsinline
+                                   preload="metadata"
+                                   poster="./video-fashion-denim-poster.jpg">
+                                <source src="./video-fashion-denim.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                            <p class="text-xs text-slate-600 font-medium">Fashion video concept — denim</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <video class="portfolio-video rounded mb-3"
+                                   controls
+                                   playsinline
+                                   preload="metadata"
+                                   poster="./video-fashion-pink-cardigan-poster.jpg">
+                                <source src="./video-fashion-pink-cardigan.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                            <p class="text-xs text-slate-600 font-medium">Fashion video concept — pink cardigan</p>
+                        </div>
+
+                        <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm">
+                            <video class="portfolio-video rounded mb-3"
+                                   controls
+                                   playsinline
+                                   preload="metadata"
+                                   poster="./video-product-loafers-poster.jpg">
+                                <source src="./video-product-loafers.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                            <p class="text-xs text-slate-600 font-medium">Product video concept — loafers</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY WORK WITH ME -->
+    <section class="py-20 md:py-28 bg-white">
+        <div class="max-w-3xl mx-auto px-6">
+
+            <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-3">Approach</h2>
+            <h3 class="text-2xl md:text-3xl font-bold text-navy mb-6">Why Work With Me</h3>
+
+            <div class="space-y-4 text-base md:text-lg text-slate-700 leading-relaxed">
+                <p>
+                    I bring together customer support experience, administrative and operations knowledge, and practical experience with AI and digital tools.
+                </p>
+
+                <p>
+                    I’m comfortable working independently, learning new systems, handling detailed tasks, and communicating clearly with customers and teams.
+                </p>
+
+                <p class="text-slate-600 text-sm md:text-base">
+                    I focus on doing the work accurately while keeping the experience simple and professional for the people I’m supporting.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20 md:py-28 bg-navy text-white">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+
+            <h2 class="text-xs font-semibold uppercase tracking-widest text-blue-400 mb-3">
+                Get in Touch
+            </h2>
+
+            <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                Patricia Ann Bandibas
+            </h3>
+
+            <p class="text-sm md:text-base text-slate-300 mb-8 font-medium">
+                Customer Experience | Customer Support | E-commerce | AI-Assisted Work
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-3 mb-10 text-sm">
+                <a href="mailto:patriciaannbandibas08@gmail.com"
+                   class="px-5 py-3 bg-white hover:bg-slate-100 text-navy rounded-md border border-white transition-colors w-full sm:w-auto">
+                    patriciaannbandibas08@gmail.com
+                </a>
+
+                <!-- Replace # with your actual LinkedIn profile URL -->
+                <a href="#"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="px-5 py-3 bg-slate-800 hover:bg-slate-700 text-white rounded-md border border-slate-600 transition-colors w-full sm:w-auto">
+                    LinkedIn
+                </a>
+            </div>
+
+            <p class="text-xs text-slate-400">
+                Available for remote employment and freelance/contract opportunities.
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 bg-navy-dark text-slate-500 text-xs text-center border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>© 2026 Patricia Ann Bandibas. All rights reserved.</p>
+            <p>Remote Customer Support & Digital Operations Professional</p>
+        </div>
+    </footer>
+
+</body>
+</html>
